@@ -1,0 +1,52 @@
+{"logTime": "1106/042817", "session": "START"}
+{"logTime": "1106/042817", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": false,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/042832", "level": "INFO", "location": "chrome\\browser\\sessions\\edge_exit_type_tracker.cc:192 SetExitTypeInternal", "message": "Clearing autorestore crash exit count for profile"}
+{"logTime": "1106/042833", "session": "END"}
+{"logTime": "1106/042946", "session": "START"}
+{"logTime": "1106/042946", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": false,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/043114", "session": "START"}
+{"logTime": "1106/043114", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/043114", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/043245", "session": "START"}
+{"logTime": "1106/043245", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/043245", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/043409", "session": "END"}
+{"logTime": "1106/043657", "session": "START"}
+{"logTime": "1106/043657", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/043658", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/043822", "session": "START"}
+{"logTime": "1106/043822", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/043823", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/044332", "session": "END"}
+{"logTime": "1106/123928", "session": "START"}
+{"logTime": "1106/123928", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/123928", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/132037", "session": "END"}
+{"logTime": "1106/132049", "session": "START"}
+{"logTime": "1106/132049", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/132049", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/134053", "session": "END"}
+{"logTime": "1106/134843", "session": "START"}
+{"logTime": "1106/134843", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/134843", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/135423", "session": "END"}
+{"logTime": "1106/135901", "session": "START"}
+{"logTime": "1106/135901", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/135902", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/140629", "session": "END"}
+{"logTime": "1106/140633", "session": "START"}
+{"logTime": "1106/140633", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/140633", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/140640", "session": "END"}
+{"logTime": "1106/140706", "session": "START"}
+{"logTime": "1106/140706", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/140706", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/141024", "session": "END"}
+{"logTime": "1106/141234", "session": "START"}
+{"logTime": "1106/141234", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1106/141235", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1106/141415", "session": "END"}
+{"logTime": "1108/112740", "session": "START"}
+{"logTime": "1108/112740", "level": "INFO", "location": "chrome\\browser\\sessions\\session_service_log.cc:326 EdgeLogSessionServiceMessage", "message": "SessionServiceEvent: kStart - {\r\n   \"crashed\": true,\r\n   \"type\": 0\r\n}\r\n"}
+{"logTime": "1108/112741", "level": "INFO", "location": "components\\sessions\\core\\command_storage_manager.cc:644 operator()", "message": "No session files found for SessionType SessionRestore"}
+{"logTime": "1108/112844", "session": "END"}

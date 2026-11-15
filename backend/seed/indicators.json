@@ -1,0 +1,38 @@
+{
+  "config_version": "2026-11-01",
+  "published_at": "2026-11-01T00:00:00+08:00",
+  "source": "技术路线/技术路线-详细设计-v3.0.md，第 6 章指标表；权重为结构示意值，须经德尔菲→AHP→组合赋权→效标校验后方可作评价依据。",
+  "domains": {
+    "tm":     {"name": "目标匹配度", "weight": 0.40,   "tier": "audio"},
+    "ts":     {"name": "授课状态",   "weight": 0.60,   "tier": "audio"},
+    "tb":     {"name": "教师行为",   "weight": 0.4124, "tier": "video"},
+    "ss":     {"name": "学生状态",   "weight": 0.4639, "tier": "video"},
+    "st":     {"name": "互动结构",   "weight": 0.1237, "tier": "video"},
+    "gate":   {"name": "合规门禁",   "weight": null,   "tier": "audio"},
+    "listed": {"name": "结果层（列示）", "weight": null, "tier": "video"}
+  },
+  "items": [
+    {"code": "A1",  "name": "开课目标告知",    "tier": "audio", "domain": "tm", "weight": 0.0600, "direction": "level",    "a": 0,    "b": 1,    "c": null, "d": null, "unit": "0–1",   "denominator_rule": "等级折算",       "scored": true},
+    {"code": "A2",  "name": "加权目标覆盖",    "tier": "audio", "domain": "tm", "weight": 0.2400, "direction": "inc",      "a": 0,    "b": 0.75, "c": null, "d": null, "unit": "ratio", "denominator_rule": "核心目标权重和", "scored": true},
+    {"code": "A3",  "name": "内容目标聚焦",    "tier": "audio", "domain": "tm", "weight": 0.1000, "direction": "inc",      "a": 0.40, "b": 0.85, "c": null, "d": null, "unit": "ratio", "denominator_rule": "有效讲授时长",   "scored": true},
+    {"code": "B1",  "name": "语速与停顿",      "tier": "audio", "domain": "ts", "weight": 0.1300, "direction": "interval", "a": 140,  "b": 185,  "c": 250,  "d": 330,  "unit": "字/分", "denominator_rule": "—",             "scored": true},
+    {"code": "B2",  "name": "语调与重音",      "tier": "audio", "domain": "ts", "weight": 0.0900, "direction": "level",    "a": 0,    "b": 1,    "c": null, "d": null, "unit": "0–1",   "denominator_rule": "等级折算",       "scored": true},
+    {"code": "B3",  "name": "口音可懂度",      "tier": "audio", "domain": "ts", "weight": 0.1000, "direction": "inc",      "a": 0.70, "b": 0.95, "c": null, "d": null, "unit": "ratio", "denominator_rule": "盲听词次",       "scored": true},
+    {"code": "B4",  "name": "语言流畅度",      "tier": "audio", "domain": "ts", "weight": 0.0900, "direction": "level",    "a": 0,    "b": 1,    "c": null, "d": null, "unit": "0–1",   "denominator_rule": "等级折算",       "scored": true},
+    {"code": "B5",  "name": "讲解与组织清晰",  "tier": "audio", "domain": "ts", "weight": 0.1000, "direction": "level",    "a": 0,    "b": 1,    "c": null, "d": null, "unit": "0–1",   "denominator_rule": "等级折算",       "scored": true},
+    {"code": "B6",  "name": "课堂互动状态",    "tier": "audio", "domain": "ts", "weight": 0.0900, "direction": "inc",      "a": 0.20, "b": 0.75, "c": null, "d": null, "unit": "ratio", "denominator_rule": "有效提问数",     "scored": true},
+    {"code": "C1",  "name": "违规或危险言论",  "tier": "audio", "domain": "gate", "weight": null,  "direction": "gate",     "a": null, "b": null, "c": null, "d": null, "unit": "事件数", "denominator_rule": "—",             "scored": false},
+
+    {"code": "VA1", "name": "手势",            "tier": "video", "domain": "tb", "weight": 0.0515, "direction": "interval", "a": 5,    "b": 12,   "c": 18,   "d": 30,   "unit": "次/分", "denominator_rule": "可评价时长",     "scored": true},
+    {"code": "VA2", "name": "体态开放度",      "tier": "video", "domain": "tb", "weight": 0.0722, "direction": "interval", "a": 0.30, "b": 0.70, "c": 0.90, "d": 1.0,  "unit": "ratio", "denominator_rule": "可评价时长",     "scored": true},
+    {"code": "VA3", "name": "眼神交流",        "tier": "video", "domain": "tb", "weight": 0.0928, "direction": "interval", "a": 0.20, "b": 0.55, "c": 0.80, "d": 1.0,  "unit": "ratio", "denominator_rule": "有效观测时长",   "scored": true},
+    {"code": "VA4", "name": "空间行为",        "tier": "video", "domain": "tb", "weight": 0.1031, "direction": "interval", "a": 2,    "b": 8,    "c": 14,   "d": 25,   "unit": "次/课时", "denominator_rule": "课时",        "scored": true},
+    {"code": "VA5", "name": "媒体与呈示",      "tier": "video", "domain": "tb", "weight": 0.0928, "direction": "interval", "a": 0,    "b": 0.08, "c": 0.22, "d": 0.50, "unit": "ratio", "denominator_rule": "讲授总时长",     "scored": true},
+    {"code": "VB1", "name": "注意投入",        "tier": "video", "domain": "ss", "weight": 0.1855, "direction": "inc",      "a": 0.35, "b": 0.80, "c": null, "d": null, "unit": "ratio", "denominator_rule": "可判定人时",     "scored": true},
+    {"code": "VB2", "name": "分心行为",        "tier": "video", "domain": "ss", "weight": 0.1753, "direction": "reverse",  "a": 0.03, "b": 0.25, "c": null, "d": null, "unit": "ratio", "denominator_rule": "可判定人时",     "scored": true},
+    {"code": "VB3", "name": "参与互动",        "tier": "video", "domain": "ss", "weight": 0.1031, "direction": "inc",      "a": 0.10, "b": 0.60, "c": null, "d": null, "unit": "ratio", "denominator_rule": "在座人数",       "scored": true},
+    {"code": "VC1", "name": "话语结构",        "tier": "video", "domain": "st", "weight": 0.0722, "direction": "interval", "a": 0.03, "b": 0.15, "c": 0.40, "d": 0.65, "unit": "ratio", "denominator_rule": "话语总时长",     "scored": true},
+    {"code": "VC2", "name": "活动结构",        "tier": "video", "domain": "st", "weight": 0.0515, "direction": "combo",    "a": 0,    "b": 1,    "c": null, "d": null, "unit": "0–1",   "denominator_rule": "环节完整度",     "scored": true},
+    {"code": "VC3", "name": "目标达成",        "tier": "video", "domain": "listed", "weight": null, "direction": "listed",  "a": null, "b": null, "c": null, "d": null, "unit": "得分率", "denominator_rule": "当堂检测",      "scored": false}
+  ]
+}
